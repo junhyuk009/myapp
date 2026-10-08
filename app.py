@@ -7,6 +7,9 @@
 # Render Cloud 실행
 # streamlit run app.py --server.address 0.0.0.0 --server.port $PORT
 
+# git config --global user.email "you@example.com"  처음 commit 할때는 이메일과 유저 이름 입력해줘야함
+#   git config --global user.name "Your Name"
+
 import os
 import streamlit as st
 from dotenv import load_dotenv
